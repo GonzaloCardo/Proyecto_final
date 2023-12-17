@@ -1,0 +1,52 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdministrarPagina">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="SkyBlue" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+  
+
+        <TextBox x:Name="textuser" HorizontalAlignment="Left" Text="" VerticalAlignment="Center" Width="265" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="140,0,0,220"/>
+        <Label Content="Lista de usuarios" HorizontalAlignment="Left" Foreground="DarkBlue" FontWeight="Bold" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Width="170" Margin="10,0,0,120"/>
+        <Label Content="ADMINISTRACIÓN" HorizontalAlignment="Left" Foreground="Blue" FontWeight="Bold" VerticalAlignment="Center" Grid.Column="0" FontSize="20" Width="200" Height="40" Margin="10,0,0,300" Grid.Row="0"/>
+        <Button x:Name="BotonBorrar" Margin="420,0,0,220" Content="Borrar" HorizontalAlignment="Left" VerticalAlignment="Center" Height="35" Width="80" Grid.Row="1" Grid.Column="1" Click="BotonBorrar_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para borrar al usuario de la barra."/>
+            </Button.ToolTip>
+        </Button>
+        <ListBox x:Name="ListaUsuarios" Grid.Column="0" Width="200" Height="150" HorizontalAlignment="Left" Grid.Row="2" Grid.RowSpan="3" Margin="10,70,0,0" MouseLeftButtonUp="ListaUsuarios_MouseLeftButtonUp"/>
+        <Label x:Name="usuarios" Foreground="DarkBlue" FontWeight="Bold" Content="Búsqueda de usuarios" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,220"></Label>
+        <Button x:Name="BotonBorrarTODO" Content="Borrar todos los pacientes" HorizontalAlignment="Left" Background="Red" Margin="10,320,0,0" Foreground="White" VerticalAlignment="Center" Height="35" Width="200" Grid.Row="5" Grid.Column="0" Click="BotonBorrarTODO_Click" >
+            <Button.ToolTip>
+                <TextBlock Text="CUIDADO, este botón borra TODOS los datos de los pacientes, (Nombre, edad, localidad, alertas, patologías...)."/>
+            </Button.ToolTip>
+        </Button>
+        <Label Content="Cambiar nombre del administrador" Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Width="250" Margin="300,0,0,120"/>
+        <Label Content="Cambiar contraseña del administrador" Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Width="250" Margin="300,0,0,0"/>
+        <Label Content="Confirmar contraseña" HorizontalAlignment="Left" Foreground="DarkBlue" FontWeight="Bold" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Width="200" Margin="300,90,0,0"/>
+        <TextBox x:Name="textnombre" HorizontalAlignment="Left" Text="" VerticalAlignment="Center" Width="265" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="300,0,0,70"/>
+        <Button x:Name="BotonNombre" Margin="600,0,0,70" Content="Cambiar nombre" HorizontalAlignment="Left" VerticalAlignment="Center" Height="35" Width="120" Grid.Row="1" Grid.Column="1" Click="BotonNombre_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para cambiar el nombre del administrador."/>
+            </Button.ToolTip>
+        </Button>
+        <Button x:Name="BotonContraseña" Margin="600,130,0,0" Content="Cambiar contraseña" HorizontalAlignment="Left" VerticalAlignment="Center" Height="35" Width="120" Grid.Row="1" Grid.Column="1" Click="BotonContraseña_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para cambiar la contraseña del administrador."/>
+            </Button.ToolTip>
+        </Button>
+        <PasswordBox x:Name="txtcontra" HorizontalAlignment="Left" VerticalAlignment="Center" Width="265" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="300,50,0,0"></PasswordBox>
+        <PasswordBox x:Name="txtcontra2" HorizontalAlignment="Left" VerticalAlignment="Center" Width="265" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="300,130,0,0"></PasswordBox>
+
+    </Grid>
+</Page>

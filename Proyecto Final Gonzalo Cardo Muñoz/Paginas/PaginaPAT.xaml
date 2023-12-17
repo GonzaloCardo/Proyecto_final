@@ -1,0 +1,40 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="400"
+      Title="PaginaPAT">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="LightGray" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label Margin="0,0,0,0" Foreground="White" FontSize="21" Background="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Width="450" Height="40">Nueva Toma-PAT./ALT./TRAST.</Label>
+
+
+        <Label Margin="30,220,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Nº HC</Label>
+        <Label Margin="30,140,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Codificación</Label>
+        <Label Margin="30,60,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25">Esp. médica/quirúrgica</Label>
+        <Label Margin="30,0,0,20"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Diagnóstico</Label>
+        <Label Margin="30,0,0,100"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Síntomas</Label>
+        <Label Margin="30,0,0,180"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Fecha diagnóstico </Label>
+        <Label Margin="30,0,0,260"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="130" Height="25">Fecha iniciosíntomas</Label>
+
+        <TextBox x:Name="txFD" Margin="180,0,0,180" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtSin" Margin="180,0,0,100" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtDia" Margin="180,0,0,20" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtEsp" Margin="180,60,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtCod" Margin="180,140,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtNHC" Margin="180,220,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtFS" Margin="180,0,0,260" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        
+        <Button x:Name="btnAceptar" Content="Guardar" HorizontalAlignment="Center" Height="30" Width="59" VerticalAlignment="Center" Margin="300,300,0,0" Click="btnAceptar_Click"/>
+        <Button x:Name="btnActu" Content="Actualizar" HorizontalAlignment="Center" Height="30" Width="59" VerticalAlignment="Center" Margin="150,300,0,0" Click="btnActu_Click"/>
+    </Grid>
+</Page>

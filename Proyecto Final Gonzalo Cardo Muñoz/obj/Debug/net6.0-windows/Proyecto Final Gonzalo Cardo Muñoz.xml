@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Proyecto Final Gonzalo Cardo Muñoz</name>
+    </assembly>
+    <members>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda">
+            <summary>
+            Lógica de interacción para Busqueda.xaml
+            </summary>
+            <summary>
+            Busqueda
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.texto">
+            <summary>
+            Propiedad que guarda el dato con el que se busca al paciente
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.num">
+            <summary>
+            Propiedad que guarda un número
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.btnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón confirma la búsqueda cogiendo como información el texto del textbox. Esto lo hace mediante eventos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.btnCancelar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón cierra el user control mediante un evento
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.btnSeleccionar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda en una propiedad la información del textbox
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Controles.Busqueda.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD">
+            <summary>
+            Esta clase se encarga de guardar lo métodos relacionados con buscar o alterar información de la base de datos. Tiene 2 propiedades y está llena de métodos
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.cuenta">
+            <summary>
+            Propiedad que guarda un int que indica el tipo de usuario
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.habilitado">
+            <summary>
+            Propiedad string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.Conectar(System.String,System.String)">
+            <summary>
+            Método que comprueba si el usuario y contraseña son correctos, especifica el tipo de usuario
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.Conectar2(System.String,System.String)">
+            <summary>
+            Método que comprueba si un usuario y contraseña es correcto sin mensaje de error, especifica el tipo de usuario
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ConectarLittle(System.String)">
+            <summary>
+            Método que comprueba si un usario está en la base de datos, especifica el tipo de usuario
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.Registrar(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Método para registrarse en la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.Actualizar(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Método para actualizar los datos de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.DarAlta(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Método para dar de alta a un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.IngresarPacienteCama(System.Int32,System.Int32)">
+            <summary>
+            Método para ingresar a un paciente en una cama
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarExistePacienteCama(System.Int32)">
+            <summary>
+            Método que comprueba si una cama tiene un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarCama(System.Int32)">
+            <summary>
+            Método que comprueba si una cama está habilitada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.HabilitarCama(System.Int32)">
+            <summary>
+            Método que habilita una cama cambiando el valor del campo a 0
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.DeshabilitarCama(System.Int32)">
+            <summary>
+            Método que deshabilita una cama cambiando el valor del campo a 1
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarAlerta(System.Int32)">
+            <summary>
+            Método que selecciona la alerta del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarAlertaNombre(System.Int32)">
+            <summary>
+            Método que busca el nombre de la alerta del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarAlertaFecha(System.Int32)">
+            <summary>
+            Método que busca la fecha de la alerta del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarAlertaObservacion(System.Int32)">
+            <summary>
+            Método que busca las observaciones de la alerta del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarAlerta(System.Int32)">
+            <summary>
+            Método que comprueba si un paciente tiene una alerta asignada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarPAT(System.Int32)">
+            <summary>
+            Método que comrueba si un paciente tiene una hoja de P.A.T. asignada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarBalance(System.Int32)">
+            <summary>
+            Método que comprueba si un paciente tiene una hoja de balance asignada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarPrep(System.Int32)">
+            <summary>
+            Método que comprueba si un paciente tiene una hoja de balance asignada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarToma(System.Int32)">
+            <summary>
+            Método que si un paciente tiene una nota de enfermería asignada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarNHCCama(System.Int32)">
+            <summary>
+            Método que devuelve el NHC del paciente en la cama que está
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarPlantaCama(System.Int32)">
+            <summary>
+            Método que devuelve la planta en la que se encuentra una cama
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarLetraCama(System.Int32)">
+            <summary>
+            Método que devuelve la letra de habitación de una cama
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarHabCama(System.Int32)">
+            <summary>
+            Método que devuelve el número de habitación en el que está
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.CrearAlerta(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que crea una alerta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarAlerta(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que actualiza los datos de una alerta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SacarCodigoAlerta(System.String)">
+            <summary>
+            Método que devuelve el código de una alerta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.InsertarAlertaPaciente(System.Int32,System.String)">
+            <summary>
+            Método que asigna una alerta a un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.QuitarPacienteCama(System.Int32)">
+            <summary>
+            Método que quita a su paciente asignado dejando el NHC a null
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BorrarAlertaPaciente(System.Int32)">
+            <summary>
+            Método que quita la aignación de una alerta de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BorrarAlerta(System.Int32)">
+            <summary>
+            Método que borra una alerta de la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarComunidades">
+            <summary>
+            Método que guarda en una lista las comunidades autónomas de España
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarProvinciasTodas">
+            <summary>
+            Método que guarda en una lista todas las provincias
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarCamas(System.Int32)">
+            <summary>
+            Método que guarda en una lista camas 
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarAreaSalud">
+            <summary>
+            Método que guarda en una lista las áreas de salud
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarCastilla">
+            <summary>
+            Método que guarda en una lista las comunidades autónomas de Castilla La-Mancha
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarProvincias(System.Int32)">
+            <summary>
+            Método que guarda en una lista provincias dependiendo de la comunidad elegida
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarCentroSalud(System.String)">
+            <summary>
+            Método que guarda en una lista los centros de salud dependiendo de la ciudad
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarTodosCentroSalud">
+            <summary>
+            Método que guarda en una lista todos los centros de salud
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarZonaBasica(System.Int32)">
+            <summary>
+            Método que guarda en una lista las zonas básicas dependiendo del area 
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarTodasZonaBasicas">
+            <summary>
+            Método que guarda en una lista todsa las zonas básicas
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.SeleccionarCentros(System.Int32)">
+            <summary>
+            Método que guarda en una lista los centros de salud dependiendo de la ciudad
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.VerUsuarios">
+            <summary>
+            Método que guarda en una lista todos los usuarios de la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BorrarUsuario(System.String)">
+            <summary>
+            Método que borra un usuario de la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BorrarTodo">
+            <summary>
+            Método que borra todos los pacientes de la base de datos, sus alertas y hojas médicas
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarDNI(System.String)">
+            <summary>
+            Método que devuelve una lista con todos los datos del paciente mediante su DNI
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarPaciente(System.String)">
+            <summary>
+            Método que devuelve el NHC de un paciente mediante su DNI
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarPacienteNHC(System.String)">
+            <summary>
+            Método que comprueba si un paciente existe
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarPacienteCama(System.Int32)">
+            <summary>
+            Método que comprueba si hay un paciente en una cama
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ConseguirPacienteCama(System.Int32)">
+            <summary>
+            Método que devuelve el NHC de un paciente de una cama
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarGenero(System.String)">
+            <summary>
+            Método que comprueba el género de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BorrarNHCCama(System.Int32)">
+            <summary>
+            Método que elimina el NHC de una cama, especificando que queda vacía
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ConseguirNHCconDNI(System.String)">
+            <summary>
+            Método que devuelve el NHc de un paciente mediante su DNI
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ConseguirNHCconSS(System.String)">
+            <summary>
+            Método que consigue el NHC mediante el SS
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ConseguirCamadePaciente(System.Int32)">
+            <summary>
+            Método que devuelve la cama de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ComprobarPacienteSS(System.String)">
+            <summary>
+            Método que comprueba si un paciente existe mediante su SS
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarSS(System.String)">
+            <summary>
+            Método que devuelve una lista con todos los datos de un paciente mediante su SS
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarNHC(System.String)">
+            <summary>
+            Método que devuelve todos los datos de un paciente mediante su NHC
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarToma(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que actualiza la hoja de enfermería de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.CrearToma(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que crea una hoja de enfermería de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarToma(System.Int32)">
+            <summary>
+            Método que busca los datos de la hoja de enfermería de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarBalance(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que actualiza el balance de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.CrearBalance(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que crea el balance de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarBalance(System.Int32)">
+            <summary>
+            Método que busca los datos del balance de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarPrep(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que actualiza la hoja de prescripcion de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.CrearPrep(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que crea la hoja de prescripcion de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarPrep(System.Int32)">
+            <summary>
+            Método que busca los datos de la hoja de prescripcion de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarPAT(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que actualiza la hoja de PAT de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.CrearPAT(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Método que crea la hoja de PAT de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.BuscarPAT(System.Int32)">
+            <summary>
+            Método que busca los datos de la hoja PAT de un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarNombreAdmin(System.String)">
+            <summary>
+            Método que actualiza el nombre del administrador
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD.ActualizarContraseñaAdmin(System.String)">
+            <summary>
+            Método que actualiza la contraseña del administrador
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Informe">
+            <summary>
+            Lógica de interacción para Informe.xaml
+            </summary>
+            <summary>
+            Informe
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Informe.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Informe2">
+            <summary>
+            Lógica de interacción para Informe2.xaml
+            </summary>
+            <summary>
+            Informe2
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Informe2.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina">
+            <summary>
+            Lógica de interacción para AdministrarPagina.xaml
+            </summary>
+            <summary>
+            AdministrarPagina
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.Refrescar">
+            <summary>
+            Este método genera una lista de usuarios
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.BotonBorrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón borra de la base de datos al usuario seleccionado
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.ListaUsuarios_MouseLeftButtonUp(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Este método de Listbox escribe el nombre del usuario seleccionado en la barra de búsqueda
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.BotonBorrarTODO_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón elimina de la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.BotonNombre_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza el nombre del administrador con el texto escrito en la barra
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.BotonContraseña_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza la contraseña escrita, comprueba que sea la misma en ambos campos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.AdministrarPagina.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal">
+            <summary>
+            Lógica de interacción para MenuPrincipal.xaml
+            </summary>
+            <summary>
+            MenuPrincipal
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.textob">
+            <summary>
+            Propiedad que guarda al paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,Proyecto_Final_Gonzalo_Cardo_Muñoz.Window)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnBuscar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón hace visible el apartado de búsqueda, un user control cuya función es buscar y seleccionar pacientes
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnDarAlta_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón abre una ventana que contiene una página cuya función es dar de alta a los paciente (registralos)
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnSalir_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón te devuelve a la ventana de acceso, deberás volver a iniciar sesión
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.MiEventoEventHandler">
+            <summary>
+            Handler de método "Ocultar búsqueda"
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.OcultarBusqueda">
+            <summary>
+            Método que oculta el user control de búsqueda
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.AbrirInformeEventHandler">
+            <summary>
+            Handler de método AbrirInforme
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.AbrirInforme">
+            <summary>
+            Método que abre la ventana de Informe2, la cual contiene una página donde se ven y editan los datos de los pacientes buscados
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.GuardarPacienteEventHandler">
+            <summary>
+            Handler del método GuardarPaciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.GuardarPaciente">
+            <summary>
+            Método que guarda en un string el texto seleccionado del control de usuario búsqueda
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnIngresar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón ingresa un paciente en una cama, tomando las precauciones necesarias
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnAlertas_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón abre la ventana WindowLittle, que contiene una página donde se guardan o alteran las alertas de los pacientes
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnDeshabilitar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón deshabilita la cama seleccionada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnHabilitar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón habilita la cama seleccionada
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.Button_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método deja la cama clicada seleccionada (es un botón)
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.Button_Unchecked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método deja la cama clicada sin seleccionar (es un botón)
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.planta_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método de comboBox genera y quita las camas en pantalla cuando se selecciona un ItemCombobox suyo
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnAltaH_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón abre la ventana de alta hospitalaria
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnInforme_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón no está disponible
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnRefrescar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón utiliza el método Refrescar, el cual se utiliza en varios métodos, tales como en ingrsear pacientes y en guardar o borrar alertas.
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.Refrescar">
+            <summary>
+            Método que vuelve a cargar las camas, se utiliza cuando hay alteraciones en las mismas
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnProcesos_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón no está disponible
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnNotas_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón abre la ventana que contiene las notas de enfermería del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnPrescripcion_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón abre la ventana que contiene las hojas de prescripción del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnPAT_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón abre la ventana que contiene las patología/alteración/trastorno
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.btnAdmin_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón pasa a la página de administrador, solo visible para el administrador
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlerta">
+            <summary>
+            Lógica de interacción para PaginaAlerta.xaml
+            </summary>
+            <summary>
+            PaginaAlerta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlerta.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowLittle,Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.Int32,System.Int32,Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlerta.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda la información escrite sobre una alerta de un paciente en la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlerta.btnBorrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón borra la alerta de la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlerta.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza la alerta de la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlerta.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlta">
+            <summary>
+            Lógica de interacción para PaginaAlta.xaml
+            </summary>
+            <summary>
+            PaginaAlta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlta.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowAlta,Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.Int32,Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlta.btnalta_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón da de alta hospitalaria a un paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlta.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance">
+            <summary>
+            Lógica de interacción para PaginaBalance.xaml
+            </summary>
+            <summary>
+            PaginaBalance
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance.btnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda la información escrita en el paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance.Busqueda(System.Int32)">
+            <summary>
+            Este método carga la información (si la hay) en los texttbox
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance.btnActu_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza la información escrita del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi">
+            <summary>
+            Lógica de interacción para PaginaConfi.xaml
+            </summary>
+            <summary>
+            PaginaConfi
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.server">
+            <summary>
+            Propiedad para conectarse a la base
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.port">
+            <summary>
+            Propiedad para conectarse a la base
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.user">
+            <summary>
+            Propiedad para conectarse a la base
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.password">
+            <summary>
+            Propiedad para conectarse a la base
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.BtnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón cambia el valor de las propiedades de la clase al valor escrito en los textbox 
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaConfi.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaHojas">
+            <summary>
+            Lógica de interacción para PaginaHojas.xaml
+            </summary>
+            <summary>
+            PaginaHojas
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaHojas.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaHojas.Busqueda(System.Int32)">
+            <summary>
+            Este método carga la información (si la hay) en los texttbox
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaHojas.btnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda la información escrita en el paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaHojas.btnActu_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza la información escrita del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaHojas.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT">
+            <summary>
+            Lógica de interacción para PaginaPAT.xaml
+            </summary>
+            <summary>
+            PaginaPAT
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT.Busqueda(System.Int32)">
+            <summary>
+            Este método carga la información (si la hay) en los texttbox
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT.btnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda la información escrita en el paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT.btnActu_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza la información escrita del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaPAT.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaProcesos">
+            <summary>
+            Lógica de interacción para PaginaProcesos.xaml, esta página no la utilizo
+            </summary>
+            <summary>
+            PaginaProcesos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaProcesos.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaTCAE">
+            <summary>
+            Lógica de interacción para PaginaTCAE.xaml
+            </summary>
+            <summary>
+            PaginaTCAE
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaTCAE.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaTCAE.btnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda la información escrita en el paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaTCAE.Busqueda(System.Int32)">
+            <summary>
+            Este método carga la información (si la hay) en los texttbox
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaTCAE.btnActu_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón actualiza la información escrita del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaTCAE.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.Registrarse">
+            <summary>
+            Lógica de interacción para Registrarse.xaml
+            </summary>
+            <summary>
+            Registrarse
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.Registrarse.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.MainWindow)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.Registrarse.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón registra un nuevo usuario con la información escrita, el nombre de usuario no puede estar registrado en la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.Registrarse.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso">
+            <summary>
+            Lógica de interacción para VentanaAcceso.xaml
+            </summary>
+            <summary>
+            VentanaAcceso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.MainWindow)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso.BtnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón comprueba si la conexión es posible y oculta la ventana visible para hacer visible la siguiente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso.BtnRegistrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón te lleva a la página de registro
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso.btnAceptar2_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón comprueba si el ambito y el tipo de usuario son correctos para dar paso a la siguiente ventana con el menú
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso.btnCancelar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón te devuelve al apartado de inicio de sesión
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta">
+            <summary>
+            Lógica de interacción para VentanaDarAlta.xaml
+            </summary>
+            <summary>
+            VentanaDarAlta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Informe)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.btnDarAlta_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda a un nuevo paciente con los datos escritos en la base de datos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.btnCancelar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón cierra la ventana
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckNac_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckEx_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckEx2_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el combobox sea falso y le da valor a un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckNac2_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso y le da valor a un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckFall_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckFall_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método le da un valor a un int
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckNac_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método le da valor a un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.ckEx_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método le da valor a un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.cboComun_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.txtCA_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.RellenarComunidades">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.RellenarProvincias" -->
+        <!-- Badly formed XML comment ignored for member "M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.RellenarAreas" -->
+        <!-- Badly formed XML comment ignored for member "M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.RellenarZonas" -->
+        <!-- Badly formed XML comment ignored for member "M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.RellenarCentros" -->
+        <!-- Badly formed XML comment ignored for member "M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.RellenarCastilla" -->
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.txtAS_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.Castilla_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario">
+            <summary>
+            Lógica de interacción para VentanaVerFormulario.xaml
+            </summary>
+            <summary>
+            VentanaVerFormulario
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.#ctor(Proyecto_Final_Gonzalo_Cardo_Muñoz.Informe2,Proyecto_Final_Gonzalo_Cardo_Muñoz.MainWindow,Proyecto_Final_Gonzalo_Cardo_Muñoz.Datos.BBDD,System.String,System.Int32,Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.MenuPrincipal)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.btnAceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón cierra la ventana
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.Editar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón activa el modo edición, se pueden editar los datos y los botones cambian
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.btnCancelar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón cancela el modo edición
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.btnGuardar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este botón guarda los cambios hechos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.Busqueda(System.String,System.Int32)">
+            <summary>
+            Este método muestra los datos del paciente
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.cktitu_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckEx2_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckNac2_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckFall_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso y altera varios textbox
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckNac_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckEx_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método hace que el checkbox sea falso
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckFall_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método modifica el valor de un int
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckNac_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método modifica el valor de un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckEx_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método modifica el valor de un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckEx2_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método modifica el valor de un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.ckNac2_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Este método modifica el valor de un string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.TodoEnabled">
+            <summary>
+            Este método hace que los datos sean editables
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.NadaEnabled">
+            <summary>
+            Este método hace que ningún sea editable
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.cboComun_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.txtAS_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.Castilla_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método altera otro combobox según la selección
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.RellenarComunidades">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.RellenarProvincias">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.RellenarAreas">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.RellenarZonas">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.RellenarCentros">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.RellenarCastilla">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.txtCA_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Este método rellena una lista tipo string
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaVerFormulario.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.alerta">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.alertazul">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.Buscar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.cama">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.cama2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachica">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachica2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachicaalerta">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachicaalerta2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachico">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachico2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachicoalerta">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camachicoalerta2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camaotro">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camaotro2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camaotroalerta">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.camaotroalerta2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.daralta">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.deshabilitar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.habilitar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.icono">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.informe">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.insertar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.notas">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.pat">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.prep">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.Refrescar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.Window">
+            <summary>
+            Lógica de interacción para Window.xaml
+            </summary>
+            <summary>
+            Window
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.Window.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowAlta">
+            <summary>
+            Lógica de interacción para WindowAlta.xaml
+            </summary>
+            <summary>
+            WindowAlta
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowAlta.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowLittle">
+            <summary>
+            Lógica de interacción para WindowLittle.xaml
+            </summary>
+            <summary>
+            WindowLittle
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowLittle.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowPAT">
+            <summary>
+            Lógica de interacción para WindowPAT.xaml
+            </summary>
+            <summary>
+            WindowPAT
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowPAT.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowPrep">
+            <summary>
+            Lógica de interacción para WindowPrep.xaml
+            </summary>
+            <summary>
+            WindowPrep
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowPrep.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowProcesos">
+            <summary>
+            Lógica de interacción para WindowProcesos.xaml
+            </summary>
+            <summary>
+            WindowProcesos
+            </summary>
+        </member>
+        <member name="M:Proyecto_Final_Gonzalo_Cardo_Muñoz.WindowProcesos.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

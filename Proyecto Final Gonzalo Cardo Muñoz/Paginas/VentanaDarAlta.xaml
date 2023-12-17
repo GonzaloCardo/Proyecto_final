@@ -1,0 +1,181 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaDarAlta"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="800"
+      Title="VentanaDarAlta">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="LightGray" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="33.471"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="27"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="27"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="27"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Datos Demográficos" Background="DarkBlue" Grid.Column="0" Grid.ColumnSpan="6" FontSize="23" HorizontalAlignment="Left" FontWeight="Bold" Foreground="White" VerticalAlignment="Top" Margin="0,-8,0,0" Grid.RowSpan="2" Width="800"/>
+        <Label Content="NHC" Grid.Row="1" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Nombre" Grid.Row="2" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Sexo" Grid.Row="3" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Teléfono 1" Grid.Row="4" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Estado Civil" Grid.Row="5" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Fallecido" Grid.Row="6" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Selección de nacionalidad" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="200"/>
+        <Label Content="NIF" Grid.Row="8" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Domicilio" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="6" FontSize="15" Background="LightSkyBlue" Foreground="White" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="800"/>
+        <Label Content="C.Autónoma" Grid.Row="10" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Dirección" Grid.Row="11" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Datos Atención Primaria" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="6" Background="LightSkyBlue" Foreground="White" FontSize="15" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="800"/>
+        <Label Content="Número SS" Grid.Row="13" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Régimen" Grid.Row="14" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Médico Primario" Grid.Row="15" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Zona Básica Salud" Grid.Row="16" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="14" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Nacimiento" Grid.Row="17" Grid.Column="0" Grid.ColumnSpan="6" FontSize="15" Background="LightSkyBlue" Foreground="White" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="800"/>
+        <Label Content="Nacimiento" Grid.Row="18" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="C.Autónoma" Grid.Row="19" Grid.Column="0"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Content="Estado HC" Grid.Row="1" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Apellido 1" Grid.Row="2" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Fecha Nacimiento" Grid.Row="3" Grid.Column="2" FontSize="14" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="133"/>
+        <Label Content="Teléfono 2" Grid.Row="4" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Estudios" Grid.Row="5" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Fecha" Grid.Row="6" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Nacional" Grid.Row="7" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Extranjero" Grid.Row="7" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Provincia" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="2" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="131,0,0,0"/>
+        <Label Content="Es titular/nombre" Grid.Row="13" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="14" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="TIS" Grid.Row="14" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="C.A.P." Grid.Row="15" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Área Salud" Grid.Row="16" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Nacional" Grid.Row="18" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Extranjero" Grid.Row="18" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Provincia" Grid.Row="19" Grid.Column="2"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Content="Ámbito" Grid.Row="1" Grid.Column="4"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Apellido 2" Grid.Row="2" Grid.Column="4"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Móvil" Grid.Row="4" Grid.Column="4"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Edad" Grid.Row="7" Grid.Column="4"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Hora" Grid.Row="6" Grid.Column="4"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="hhamm" Grid.Row="6" Grid.Column="5"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="años" Grid.Row="7" Grid.Column="5"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Población" Grid.Row="10" Grid.Column="3"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="CP" Grid.Row="10" Grid.Column="5"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Población" Grid.Row="19" Grid.Column="4"  Grid.RowSpan="1" Grid.ColumnSpan="1" FontSize="15" Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtMHC" IsEnabled="False" Grid.Column="1" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtNombre" Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtPob"  Grid.Column="3" Grid.Row="10" Grid.ColumnSpan="2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="157" Margin="106,0,0,0"/>
+        <TextBox x:Name="txtCP"  Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="102" Margin="28,0,0,0"/>
+        
+        <!--
+        <TextBox x:Name="txtSexo"  Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        -->
+        <ComboBox x:Name="txtSexo"  Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" Text="" Height="25" VerticalAlignment="Center" Width="130">
+            <ComboBoxItem>Hombre</ComboBoxItem>
+            <ComboBoxItem>Mujer</ComboBoxItem>
+            <!--<ComboBoxItem>Otro</ComboBoxItem>-->
+        </ComboBox>
+        <TextBox x:Name="txtTlf1"  Grid.Column="1" Grid.Row="4" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtCivil"  Grid.Column="1" Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <CheckBox x:Name="ckFall" Grid.Column="1" Content="" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center" Click="ckFall_Click" Checked="ckFall_Checked"/>
+        <CheckBox x:Name="ckEx" Grid.Column="2" Content="" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Center" Click="ckEx_Click" Checked="ckEx_Checked"/>
+        <CheckBox x:Name="ckNac" Grid.Column="1" Content="" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Center" Click="ckNac_Click" Checked="ckNac_Checked"/>
+        <CheckBox x:Name="cktitu" Grid.Column="4" Content="" HorizontalAlignment="Left" Grid.Row="13" VerticalAlignment="Center" Checked="cktitu_Checked" Click="cktitu_Click"/>
+        <CheckBox x:Name="ckNac2" Grid.Column="2" Content="" HorizontalAlignment="Right" Grid.Row="18" VerticalAlignment="Center" Click="ckNac2_Click"/>
+        <CheckBox x:Name="ckEx2" Grid.Column="1" Content="" HorizontalAlignment="Right" Grid.Row="18" VerticalAlignment="Center" Click="ckEx2_Click"/>
+        <TextBox x:Name="txtNIF"  Grid.Column="1" Grid.Row="8" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtNIF2"  Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="33" Margin="16,0,0,0"/>
+        <TextBox x:Name="txtAp1"  Grid.Column="3" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtFchN"  Grid.Column="3" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtTlf2"  Grid.Column="3" Grid.Row="4" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtEst"  Grid.Column="3" Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtFch" IsEnabled="False"  Grid.Column="3" Grid.Row="6" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtDir" Grid.Row="11" Grid.ColumnSpan="6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="664" Margin="133,0,0,0"/>
+        <TextBox x:Name="txtNSS"  Grid.Column="1" Grid.Row="13" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="220"/>
+        <!--<TextBox x:Name="txtreg"  Grid.Column="1" Grid.Row="14" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/> -->
+        <ComboBox x:Name="txtreg"  Grid.Column="1" Grid.Row="14" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Text="" Height="25" VerticalAlignment="Center" Width="220">
+            <ComboBoxItem>Seguridad Social</ComboBoxItem>
+            <ComboBoxItem>ISFAS</ComboBoxItem>
+            <ComboBoxItem>MUFACE</ComboBoxItem>
+            <ComboBoxItem>MUGEJU</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="txtMP" IsEnabled="False" Grid.Column="1" Grid.Row="15" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="220"/>
+        <!--<TextBox x:Name="txtZBS"  Grid.Column="1" Grid.Row="16" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>-->
+        <ComboBox x:Name="txtZBS"  Grid.Column="1" Grid.Row="16" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Text="" Height="25" VerticalAlignment="Center" Width="220">
+           
+        </ComboBox>
+
+        <ComboBox x:Name="txtprov" Grid.Column="3" Grid.Row="19" HorizontalAlignment="Left" VerticalAlignment="Center" Width="134" SelectionChanged="txtprov_SelectionChanged" />
+        <TextBox x:Name="txtpob"  Grid.Column="5" Grid.Row="19" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txttitu"  Grid.Column="4" Grid.Row="13" Grid.ColumnSpan="1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="105" Margin="25,0,0,0" IsEnabled="False"/>
+        <TextBox x:Name="txtTIS"  Grid.Column="4" Grid.Row="14" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="250"/>
+        <!--<TextBox x:Name="txtCAP"  Grid.Column="4" Grid.Row="15" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>-->
+        <ComboBox x:Name="txtCAP"  Grid.Column="4" Grid.Row="15" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Text="" Height="25" VerticalAlignment="Center" Width="250">
+           
+        </ComboBox>
+        <ComboBox x:Name="Castilla" Grid.Column="2" Grid.Row="15" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" Text="" Height="25" VerticalAlignment="Center" Margin="0,0,20,0" Width="25" SelectionChanged="Castilla_SelectionChanged"></ComboBox>
+        <!--<TextBox x:Name="txtAS"  Grid.Column="4" Grid.Row="16" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>-->
+        <ComboBox x:Name="txtAS"  Grid.Column="4" Grid.Row="16" Grid.RowSpan="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Text="" Height="25" VerticalAlignment="Center" Width="250" SelectionChanged="txtAS_SelectionChanged">
+          
+        </ComboBox>
+        <TextBox x:Name="txtap2"  Grid.Column="5" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txtmov"  Grid.Column="5" Grid.Row="4" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="130"/>
+        <TextBox x:Name="txthora"  Grid.Column="4" Grid.Row="6" IsEnabled="False" Grid.ColumnSpan="1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="89" Margin="41,0,0,0"/>
+        <TextBox x:Name="txtedad"  Grid.Column="4" Grid.Row="7"  Grid.ColumnSpan="1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="" Height="25" VerticalAlignment="Center" Width="89" Margin="41,0,0,0"/>
+
+        <ComboBox x:Name="cboEstado" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="134">
+            <ComboBoxItem  IsSelected="True">Hospitalización</ComboBoxItem>
+            <ComboBoxItem>Urgencias</ComboBoxItem>
+            <ComboBoxItem>Consultas</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="cboAmbito" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="134">
+            <ComboBoxItem  IsSelected="True">Hospitalización</ComboBoxItem>
+            <ComboBoxItem>Urgencias</ComboBoxItem>
+            <ComboBoxItem>Consultas</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="cboPro" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="10" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="90" Margin="73,0,0,0" SelectionChanged="cboPro_SelectionChanged">
+
+        </ComboBox>
+        <Button x:Name="btnDarAlta" Grid.Column="5" Content="Dar de Alta" HorizontalAlignment="Center" Height="30" Width="80" Grid.Row="20" VerticalAlignment="Center" Click="btnDarAlta_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para dar de alta al paciente."/>
+            </Button.ToolTip>
+        </Button>
+        <Button x:Name="btnCancelar" Grid.Column="0" Content="Cancelar" HorizontalAlignment="Center" Height="30" Width="80" Grid.Row="20" VerticalAlignment="Center" Click="btnCancelar_Click"/>
+
+        <ComboBox x:Name="cboComun" Grid.Column="1" Grid.Row="10" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="134" SelectionChanged="cboComun_SelectionChanged"/>
+        <ComboBox x:Name="txtCA" Grid.Column="1" Grid.Row="19" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="134" SelectionChanged="txtCA_SelectionChanged"/>
+
+    </Grid>
+</Page>

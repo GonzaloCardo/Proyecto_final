@@ -1,0 +1,64 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaProcesos"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PaginaProcesos">
+
+    <Grid>
+        <Grid.Background>
+                <LinearGradientBrush>
+                <GradientStop Color="LightGray" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Margin="40,0,0,0" Width="250" Height="50" VerticalAlignment="Center" FontSize="25" HorizontalAlignment="Left" Foreground="DarkBlue" FontWeight="Bold">Tipos Formulario</Label>
+        <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1" Height="50" Width="310" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"  HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="True" Margin="300,0,0,230" >
+            <MenuItem x:Name="Vacio" Header="">
+            </MenuItem>
+            <MenuItem VerticalContentAlignment="Center" x:Name="Notas" Header="Búsqueda de Formularios" Height="48">
+                <MenuItem.ToolTip>
+                    <TextBlock Text="Abre los tipos de formulario"/>
+                </MenuItem.ToolTip>
+                <MenuItem IsEnabled="False" Foreground="Black" Header="Valoración de ingreso"/>
+                <MenuItem IsEnabled="False" Foreground="Black" Header="Seguimiento UDP"/>
+                <MenuItem IsEnabled="False" Foreground="Black" Header="Escala de Glasgow"/>
+                <MenuItem IsEnabled="False" Foreground="Black" Header="Escala de Norton"/>
+                <MenuItem x:Name="Toma" Foreground="Black" Header="Toma de constantes vitales" Click="Toma_Click">
+                    <MenuItem.ToolTip>
+                        <TextBlock Text="Abre la ventana de Toma de constantes vitales"/>
+                    </MenuItem.ToolTip>
+                </MenuItem>
+                <MenuItem x:Name="Balance" Foreground="Black" Header="Balance hídrico" Click="Balance_Click">
+                    <MenuItem.ToolTip>
+                        <TextBlock Text="Abre la ventana de balance hidrílico"/>
+                    </MenuItem.ToolTip>
+                </MenuItem>
+            </MenuItem>
+            <!--
+            <MenuItem x:Name="Hojas" Header="Hoja de prescripción" Click="Hojas_Click">
+                <MenuItem.ToolTip>
+                    <TextBlock Text="Abre una ventana donde escribir el tratamiento" Background="Black"/>
+                </MenuItem.ToolTip>
+            </MenuItem>
+            <MenuItem x:Name="PAT" Header="Patología/Alteración/Trastorno" Click="PAT_Click">
+                <MenuItem.ToolTip>
+                    <TextBlock Text="Recargar" Background="Black"/>
+                </MenuItem.ToolTip>
+            </MenuItem>
+            -->
+        </Menu>
+
+    </Grid>
+</Page>

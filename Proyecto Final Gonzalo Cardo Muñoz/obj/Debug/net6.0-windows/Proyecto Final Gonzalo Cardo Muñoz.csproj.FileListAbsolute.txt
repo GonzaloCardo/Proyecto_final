@@ -1,0 +1,92 @@
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.exe
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.deps.json
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.runtimeconfig.json
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.pdb
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.xml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.csproj.AssemblyReference.cache
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Controles\Busqueda.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Informe.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Informe2.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\AdministrarPagina .g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\MenuPrincipal.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaAlerta.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaAlta.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaBalance.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaConfi.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaHojas.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaPAT.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaProcesos.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaTCAE.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\Registrarse.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\VentanaAcceso.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\VentanaDarAlta.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\VentanaVerFormulario.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Window.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowAlta.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowLittle.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowPAT.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowPrep.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowProcesos.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz_Content.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz_MarkupCompile.cache
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz_MarkupCompile.lref
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\App.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Controles\Busqueda.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Informe.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Informe2.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\AdministrarPagina .baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\MenuPrincipal.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaAlerta.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaAlta.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaBalance.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaConfi.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaHojas.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaPAT.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaProcesos.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\PaginaTCAE.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\Registrarse.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\VentanaAcceso.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\VentanaDarAlta.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Paginas\VentanaVerFormulario.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Window.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowAlta.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowLittle.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowPAT.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowPrep.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\WindowProcesos.baml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.g.resources
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto_Final_Gonzalo_Cardo_Muñoz.Resources.Resource.resources
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.csproj.GenerateResource.cache
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.AssemblyInfoInputs.cache
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.AssemblyInfo.cs
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.csproj.CoreCompileInputs.cache
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.csproj.CopyComplete
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\refint\Proyecto Final Gonzalo Cardo Muñoz.dll
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.xml
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.pdb
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\Proyecto Final Gonzalo Cardo Muñoz.genruntimeconfig.cache
+C:\Users\magik\Desktop\Clase\Proyecto final\Proyecto Final Gonzalo Cardo Muñoz\Proyecto Final Gonzalo Cardo Muñoz\obj\Debug\net6.0-windows\ref\Proyecto Final Gonzalo Cardo Muñoz.dll

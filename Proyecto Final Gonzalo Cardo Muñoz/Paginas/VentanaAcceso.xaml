@@ -1,0 +1,109 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.VentanaAcceso"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="VentanaAcceso">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="SkyBlue" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="169"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="240"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="Aquamarine" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+        <Rectangle Fill="LightSeaGreen" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Rectangle Fill="Orange" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Rectangle Fill="LightSeaGreen" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        <Rectangle Fill="Blue" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="7"/>
+        <Rectangle Fill="LightSeaGreen" Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="8"/>
+        <Rectangle Fill="Blue" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="8"/>
+        <Rectangle Fill="Blue" Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="1" Grid.RowSpan="1 "/>
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Grid.RowSpan="1"/>
+        <Rectangle Fill="Orange" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="2"/>
+        <Label Grid.Row="2" Grid.Column="2" Foreground="Black" FontWeight="Bold"  HorizontalAlignment="Center" Content="Estación Clínica" VerticalAlignment="Center" FontSize="30" Width="230" Height="50"/>
+        <Label Content="Sescam" Grid.Column="4" FontSize="27" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Height="40" Width="150"/>
+        <Label Content="Gonzalo Enrique Cardo Muñoz" Grid.Column="0" FontSize="6" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Grid.Row="10" VerticalAlignment="Bottom" Height="25" Width="160"/>
+
+
+
+
+        <!--
+       <uc:Acceso x:Name="acceso" Grid.Column="2" Grid.Row="3"/>
+       <uc:Ambitos x:Name="Uambito" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="5"/>
+        -->
+
+        <GroupBox x:Name="Caja" Grid.Column="2" Header="" Grid.Row="4" Background="Lavender" Grid.ColumnSpan="1" Grid.RowSpan="5">
+        </GroupBox>
+
+        <!-- Primera pantalla -->
+        <TextBox x:Name="textousuario" Grid.Column="2" HorizontalAlignment="Left" Foreground="DarkBlue" FontWeight="Bold" Grid.Row="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="198" Margin="60,7,0,0"/>
+        <PasswordBox x:Name="textoclave" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Bottom" Width="198" Margin="60,0,0,0"/>
+        <Label x:Name="etusuario" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="60">Usuario</Label>
+        <Label x:Name="etclave" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Top" Width="60">Clave</Label>
+        <Label x:Name="texto" Grid.Column="2" Foreground="White" FontWeight="Bold" Background="DarkBlue" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="350">Introduce nombre de usuario y contraseña</Label>
+        <Button x:Name="BtnAceptar" Content="Aceptar" Grid.Column="2" Grid.Row="8" HorizontalAlignment="Left" VerticalAlignment="Center"  Height="20" Width="70" Click="BtnAceptar_Click" Margin="256,0,0,0">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para iniciar sesión."/>
+            </Button.ToolTip>
+        </Button>
+        <Button x:Name="BtnRegistrar" Grid.Column="2" Grid.Row="8" Content="Registrar" HorizontalAlignment="Left" VerticalAlignment="Center"  Height="21" Width="72" Click="BtnRegistrar_Click" Margin="20,0,0,0">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para registrar un usuario nuevo."/>
+            </Button.ToolTip>
+        </Button>
+        <Button x:Name="BtnBase" Content="Configurar conexión" Visibility="Hidden" Grid.Column="4" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="120" Margin="0,20,0,0" Click="BtnBase_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Haz click para acceder a la configuración de la base de datos."/>
+            </Button.ToolTip>
+        </Button>
+
+
+        <!-- Segunda pantalla -->
+        <Label x:Name="texto2" Grid.Column="2" Foreground="White" FontWeight="Bold" Background="DarkBlue" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="350" Visibility="Hidden">Elige un ámbito y tipo de usuario</Label>
+        <Label x:Name="lambito" Content="Ámbito" HorizontalAlignment="Left" Grid.Column="2" Grid.Row="5" Width="52" Visibility="Hidden"/>
+        <Label x:Name="ltuser" Content="Tipo de usuario" HorizontalAlignment="Left" Grid.Column="2" Grid.Row="6" Visibility="Hidden"/>
+        <ComboBox x:Name="ambito" HorizontalAlignment="Right" Grid.Row="5" Grid.Column="2" VerticalAlignment="Center" Width="260" Margin="76,0,0,0" Visibility="Hidden">
+            <ComboBoxItem x:Name="hospitalizacion" IsSelected="True">Hospitalización</ComboBoxItem>
+            <ComboBoxItem>Urgencias</ComboBoxItem>
+            <ComboBoxItem>Consultas</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="tusuario" HorizontalAlignment="Right" Grid.Row="6" Grid.Column="2" VerticalAlignment="Center" Width="260" Margin="76,0,0,0" Visibility="Hidden" >
+            <ComboBoxItem>Profesor</ComboBoxItem>
+            <ComboBoxItem>TCAE</ComboBoxItem>
+            <ComboBoxItem x:Name="administrativo" IsSelected="True">Administrativo</ComboBoxItem>
+            <ComboBoxItem>Auxiliar de Farmacia y Parafarmacia</ComboBoxItem>
+            <ComboBoxItem>Técnico en Imagen para el Diagnóstico</ComboBoxItem>
+            <ComboBoxItem>Técnico en el Laboratiorio Clínico y Biomédico</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="btnAceptar2" Grid.Row="8" Grid.Column="2" Width="110" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,4,0" Visibility="Hidden" Click="btnAceptar2_Click">Aceptar</Button>
+        <Button x:Name="btnCancelar" Grid.Row="8" Grid.Column="2" Width="110" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,0,0,0" Visibility="Hidden" Click="btnCancelar_Click">Cancelar</Button>
+
+    </Grid>
+</Page>

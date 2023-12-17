@@ -1,0 +1,57 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaBalance"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PaginaBalance">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="LightGray" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+
+        <Label Margin="0,0,0,0" Foreground="White" FontSize="23" Background="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Width="800" Height="40">Nueva Toma-BALANCE HÍDRICO</Label>
+
+        <Label Width="55" Height="20" Foreground="White" FontSize="9" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Background="DarkBlue" Margin="140,320,0,0">ENTRADA</Label>
+        <Label Foreground="White" Width="55" Height="20" FontSize="9" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Background="DarkBlue" Margin="430,320,0,0">SALIDA</Label>
+
+        <Label Margin="30,0,0,240"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="170" Height="25">Ingesta de alimentos (ml)</Label>
+        <Label Margin="30,0,0,160"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="170" Height="25">Ingesta de líquidos (ml)</Label>
+        <Label Margin="30,0,0,80"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Fluidoterapia (ml)</Label>
+        <Label Margin="30,0,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Height="25">Hemoderivados (ml)</Label>
+        <Label Margin="30,80,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="170" Height="25">Otros (lavados, sondajes…)</Label>
+
+        <Label Margin="350,0,0,240"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Diuresis (ml)</Label>
+        <Label Margin="350,0,0,160"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Vómitos (ml)</Label>
+        <Label Margin="350,0,0,80"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Heces (ml)</Label>
+        <Label Margin="350,0,0,0"  Foreground="DarkBlue" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Drenajes (ml)</Label>
+        <Label Margin="350,80,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="25">Otras pérdidas (ml)</Label>
+        <Label Margin="350,160,0,0"  Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Height="30">Sonda nasogástrica (ml)</Label>
+        <Label Width="90" Margin="350,240,0,0" Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center">Total Balance</Label>
+
+        <TextBox x:Name="txtAlim" Margin="190,0,0,240" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"/>
+        <TextBox x:Name="txtLiq" Margin="190,0,0,160" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"/>
+        <TextBox x:Name="txtFluid" Margin="190,0,0,80" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"/>
+        <TextBox x:Name="txtHemo" Margin="190,0,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="24"/>
+        <TextBox x:Name="txtOtros" Margin="190,80,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"/>
+
+        <TextBox Margin="470,0,0,240" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtVomi" Margin="470,0,0,160" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtHeces" Margin="470,0,0,80" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtDiu" Margin="470,0,0,240" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="24"></TextBox>
+        <TextBox x:Name="txtDrenajes" Margin="470,0,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtOtras" Margin="470,80,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtSonda" Margin="470,160,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+        <TextBox x:Name="txtTotal" Margin="470,240,0,0" Foreground="Black" Background="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="140" Height="25"></TextBox>
+
+        <Button x:Name="btnAceptar" Content="Guardar" HorizontalAlignment="Center" Height="30" Width="70" VerticalAlignment="Center" Margin="650,230,0,0" Click="btnAceptar_Click"/>
+        <Button x:Name="btnActu" Content="Actualizar" HorizontalAlignment="Center" Height="30" Width="70" VerticalAlignment="Center" Margin="650,320,0,0" Click="btnActu_Click"/>
+
+    </Grid>
+</Page>

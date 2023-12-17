@@ -1,0 +1,103 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Proyecto_Final_Gonzalo_Cardo_Muñoz</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <ApplicationIcon>Resources\icono.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\alerta.png" />
+    <None Remove="Resources\alertazul.png" />
+    <None Remove="Resources\Buscar.png" />
+    <None Remove="Resources\cama.png" />
+    <None Remove="Resources\cama2.png" />
+    <None Remove="Resources\camachica.png" />
+    <None Remove="Resources\camachica2.png" />
+    <None Remove="Resources\camachicaalerta.png" />
+    <None Remove="Resources\camachicaalerta2.png" />
+    <None Remove="Resources\camachico.png" />
+    <None Remove="Resources\camachico2.png" />
+    <None Remove="Resources\camachicoalerta.png" />
+    <None Remove="Resources\camachicoalerta2.png" />
+    <None Remove="Resources\camaotro.png" />
+    <None Remove="Resources\camaotro2.png" />
+    <None Remove="Resources\camaotroalerta.png" />
+    <None Remove="Resources\camaotroalerta2.png" />
+    <None Remove="Resources\daralta.png" />
+    <None Remove="Resources\deshabilitar.png" />
+    <None Remove="Resources\habilitar.png" />
+    <None Remove="Resources\informe.png" />
+    <None Remove="Resources\insertar.png" />
+    <None Remove="Resources\notas.png" />
+    <None Remove="Resources\pat.png" />
+    <None Remove="Resources\prep.png" />
+    <None Remove="Resources\Refrescar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\icono.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\cama2.png" />
+    <Resource Include="Resources\camachica2.png" />
+    <Resource Include="Resources\camachicaalerta2.png" />
+    <Resource Include="Resources\camachico2.png" />
+    <Resource Include="Resources\camachicoalerta2.png" />
+    <Resource Include="Resources\camaotro2.png" />
+    <Resource Include="Resources\camaotroalerta2.png" />
+    <Resource Include="Resources\daralta.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\alerta.png" />
+    <Resource Include="Resources\alertazul.png" />
+    <Resource Include="Resources\Buscar.png" />
+    <Resource Include="Resources\cama.png" />
+    <Resource Include="Resources\camachica.png" />
+    <Resource Include="Resources\camachicaalerta.png" />
+    <Resource Include="Resources\camachico.png" />
+    <Resource Include="Resources\camachicoalerta.png" />
+    <Resource Include="Resources\camaotro.png" />
+    <Resource Include="Resources\camaotroalerta.png" />
+    <Resource Include="Resources\deshabilitar.png" />
+    <Resource Include="Resources\habilitar.png" />
+    <Resource Include="Resources\informe.png" />
+    <Resource Include="Resources\insertar.png" />
+    <Resource Include="Resources\notas.png" />
+    <Resource Include="Resources\pat.png" />
+    <Resource Include="Resources\prep.png" />
+    <Resource Include="Resources\Refrescar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Controles\Busqueda.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>

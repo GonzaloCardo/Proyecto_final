@@ -1,0 +1,46 @@
+﻿<Page x:Class="Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas.PaginaAlta"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Final_Gonzalo_Cardo_Muñoz.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="250" d:DesignWidth="500"
+      Title="PaginaAlta">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="Lavender" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Label x:Name="etcama" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="5,0,0,0"></Label>
+
+        <Label Grid.Row="0" Grid.Column="0" Foreground="DarkBlue" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,0,0">Fecha del alta:</Label>
+        <Label Grid.Row="1" Grid.Column="0" Foreground="DarkBlue" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,0,0">Motivo del alta:</Label>
+        <TextBox x:Name="txtalerta" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,30,0,0" Height="20" Width="290"></TextBox>
+        <ComboBox x:Name="cbomotivo" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,30,0,0" Height="20" Width="290">
+            <ComboBoxItem>Alta voluntaria</ComboBoxItem>
+            <ComboBoxItem>Domicilio (fin de cuidados)</ComboBoxItem>
+            <ComboBoxItem>Exitus</ComboBoxItem>
+            <ComboBoxItem>Exitus por gripe H1N1</ComboBoxItem>
+            <ComboBoxItem>Fuga</ComboBoxItem>
+            <ComboBoxItem>Traslado a otro centro sanitario</ComboBoxItem>
+            <ComboBoxItem>Traslado a centro socio-sanitario</ComboBoxItem>
+        </ComboBox>
+
+        <Button x:Name="btnalta" Width="120" Height="30" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="btnalta_Click">Dar alta hospitalaria</Button>
+              
+    </Grid>
+</Page>
